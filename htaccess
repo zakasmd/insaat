@@ -1,0 +1,755 @@
+ErrorDocument 403 /project3810300/page18835817.html
+ErrorDocument 404 /project3810300/page18835817.html
+
+DirectoryIndex page23457912.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://heybatli\.com/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.heybatli.com [NC]
+RewriteRule ^(.*)$ https://heybatli\.com/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/project3810300/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^bjj$ page106361356.html [NC]
+RewriteRule ^bjj/$ page106361356.html [NC]
+
+RewriteRule ^ru-67871$ page69652643.html [NC]
+RewriteRule ^ru-67871/$ page69652643.html [NC]
+
+RewriteRule ^thankyou$ page33778400.html [NC]
+RewriteRule ^thankyou/$ page33778400.html [NC]
+
+RewriteRule ^blog$ page109031036.html [NC]
+RewriteRule ^blog/$ page109031036.html [NC]
+
+RewriteRule ^ru/resorts$ page70562273.html [NC]
+RewriteRule ^ru/resorts/$ page70562273.html [NC]
+
+RewriteRule ^bjj_hard$ page106364926.html [NC]
+RewriteRule ^bjj_hard/$ page106364926.html [NC]
+
+RewriteRule ^bjj_soft$ page91370006.html [NC]
+RewriteRule ^bjj_soft/$ page91370006.html [NC]
+
+RewriteRule ^az$ page23863584.html [NC]
+RewriteRule ^az/$ page23863584.html [NC]
+
+RewriteRule ^getfuture-affiliate$ page108926786.html [NC]
+RewriteRule ^getfuture-affiliate/$ page108926786.html [NC]
+
+RewriteRule ^ru/lifehacks$ page70701167.html [NC]
+RewriteRule ^ru/lifehacks/$ page70701167.html [NC]
+
+RewriteRule ^services/website/type$ page18172738.html [NC]
+RewriteRule ^services/website/type/$ page18172738.html [NC]
+
+RewriteRule ^ru/about$ page70701185.html [NC]
+RewriteRule ^ru/about/$ page70701185.html [NC]
+
+RewriteRule ^about-54662$ page99858636.html [NC]
+RewriteRule ^about-54662/$ page99858636.html [NC]
+
+RewriteRule ^ru/partners/sashacrypto$ page70775565.html [NC]
+RewriteRule ^ru/partners/sashacrypto/$ page70775565.html [NC]
+
+RewriteRule ^services/website/249$ page19756899.html [NC]
+RewriteRule ^services/website/249/$ page19756899.html [NC]
+
+RewriteRule ^dubaicreekharbour$ page108233466.html [NC]
+RewriteRule ^dubaicreekharbour/$ page108233466.html [NC]
+
+RewriteRule ^services/website$ page18480158.html [NC]
+RewriteRule ^services/website/$ page18480158.html [NC]
+
+RewriteRule ^azurebylapisproperties$ page109090416.html [NC]
+RewriteRule ^azurebylapisproperties/$ page109090416.html [NC]
+
+RewriteRule ^services/whatsapp$ page23458754.html [NC]
+RewriteRule ^services/whatsapp/$ page23458754.html [NC]
+
+RewriteRule ^celsto3$ page107889266.html [NC]
+RewriteRule ^celsto3/$ page107889266.html [NC]
+
+RewriteRule ^services/2x$ page19413956.html [NC]
+RewriteRule ^services/2x/$ page19413956.html [NC]
+
+RewriteRule ^en-39625$ page71154431.html [NC]
+RewriteRule ^en-39625/$ page71154431.html [NC]
+
+RewriteRule ^damacislands2$ page108501106.html [NC]
+RewriteRule ^damacislands2/$ page108501106.html [NC]
+
+RewriteRule ^en/resorts$ page70633881.html [NC]
+RewriteRule ^en/resorts/$ page70633881.html [NC]
+
+RewriteRule ^seminar1$ page37733287.html [NC]
+RewriteRule ^seminar1/$ page37733287.html [NC]
+
+RewriteRule ^mercedes-benz-places-by-binghatti$ page111707706.html [NC]
+RewriteRule ^mercedes-benz-places-by-binghatti/$ page111707706.html [NC]
+
+RewriteRule ^en/lifehacks$ page71174651.html [NC]
+RewriteRule ^en/lifehacks/$ page71174651.html [NC]
+
+RewriteRule ^thank-you$ page100378786.html [NC]
+RewriteRule ^thank-you/$ page100378786.html [NC]
+
+RewriteRule ^en/partners/sashacrypto$ page73285323.html [NC]
+RewriteRule ^en/partners/sashacrypto/$ page73285323.html [NC]
+
+RewriteRule ^en/about-45491$ page71177053.html [NC]
+RewriteRule ^en/about-45491/$ page71177053.html [NC]
+
+RewriteRule ^page70634037html$ page70634037.html [NC]
+RewriteRule ^page70634037html/$ page70634037.html [NC]
+
+RewriteRule ^creek$ page99755886.html [NC]
+RewriteRule ^creek/$ page99755886.html [NC]
+
+RewriteRule ^tr-68564$ page71210121.html [NC]
+RewriteRule ^tr-68564/$ page71210121.html [NC]
+
+RewriteRule ^tr/resorts$ page71238205.html [NC]
+RewriteRule ^tr/resorts/$ page71238205.html [NC]
+
+RewriteRule ^error_404$ page108793976.html [NC]
+RewriteRule ^error_404/$ page108793976.html [NC]
+
+RewriteRule ^tr/lifehacks$ page71257707.html [NC]
+RewriteRule ^tr/lifehacks/$ page71257707.html [NC]
+
+RewriteRule ^tr/partners/sashacrypto$ page73285333.html [NC]
+RewriteRule ^tr/partners/sashacrypto/$ page73285333.html [NC]
+
+RewriteRule ^ex$ page70715685.html [NC]
+RewriteRule ^ex/$ page70715685.html [NC]
+
+RewriteRule ^pagenotfound$ page18835817.html [NC]
+RewriteRule ^pagenotfound/$ page18835817.html [NC]
+
+RewriteRule ^2-68352$ page74662245.html [NC]
+RewriteRule ^2-68352/$ page74662245.html [NC]
+
+RewriteRule ^primecenterru$ page16737430.html [NC]
+RewriteRule ^primecenterru/$ page16737430.html [NC]
+
+RewriteRule ^patonych$ page23546429.html [NC]
+RewriteRule ^patonych/$ page23546429.html [NC]
+
+RewriteRule ^hicamaestetik$ page23871968.html [NC]
+RewriteRule ^hicamaestetik/$ page23871968.html [NC]
+
+RewriteRule ^tr/about-15943$ page71257827.html [NC]
+RewriteRule ^tr/about-15943/$ page71257827.html [NC]
+
+RewriteRule ^bastau$ page25216830.html [NC]
+RewriteRule ^bastau/$ page25216830.html [NC]
+
+RewriteRule ^nurconsult$ page23871988.html [NC]
+RewriteRule ^nurconsult/$ page23871988.html [NC]
+
+RewriteRule ^ru123123$ page22456489.html [NC]
+RewriteRule ^ru123123/$ page22456489.html [NC]
+
+RewriteRule ^test$ page34129293.html [NC]
+RewriteRule ^test/$ page34129293.html [NC]
+
+RewriteRule ^aghaali$ page55221235.html [NC]
+RewriteRule ^aghaali/$ page55221235.html [NC]
+
+RewriteRule ^az/services$ page23910027.html [NC]
+RewriteRule ^az/services/$ page23910027.html [NC]
+
+RewriteRule ^az/services/whatsapp$ page23874107.html [NC]
+RewriteRule ^az/services/whatsapp/$ page23874107.html [NC]
+
+RewriteRule ^az/services/website$ page23877278.html [NC]
+RewriteRule ^az/services/website/$ page23877278.html [NC]
+
+RewriteRule ^workshop$ page25324960.html [NC]
+RewriteRule ^workshop/$ page25324960.html [NC]
+
+RewriteRule ^workshop0$ page24696882.html [NC]
+RewriteRule ^workshop0/$ page24696882.html [NC]
+
+RewriteRule ^workshop1$ page24074085.html [NC]
+RewriteRule ^workshop1/$ page24074085.html [NC]
+
+RewriteRule ^workshop/success$ page26156458.html [NC]
+RewriteRule ^workshop/success/$ page26156458.html [NC]
+
+RewriteRule ^botpro-finish1$ page25446954.html [NC]
+RewriteRule ^botpro-finish1/$ page25446954.html [NC]
+
+RewriteRule ^botpro/success$ page27219743.html [NC]
+RewriteRule ^botpro/success/$ page27219743.html [NC]
+
+RewriteRule ^botpro$ page26079859.html [NC]
+RewriteRule ^botpro/$ page26079859.html [NC]
+
+RewriteRule ^workshop/lessons/solar$ page26998975.html [NC]
+RewriteRule ^workshop/lessons/solar/$ page26998975.html [NC]
+
+RewriteRule ^workshop/pre-lesson-1$ page26029195.html [NC]
+RewriteRule ^workshop/pre-lesson-1/$ page26029195.html [NC]
+
+RewriteRule ^workshop/pre-lesson-2$ page26050258.html [NC]
+RewriteRule ^workshop/pre-lesson-2/$ page26050258.html [NC]
+
+RewriteRule ^workshop/coding1$ page26744362.html [NC]
+RewriteRule ^workshop/coding1/$ page26744362.html [NC]
+
+RewriteRule ^workshop/dashboard/finish$ page27088356.html [NC]
+RewriteRule ^workshop/dashboard/finish/$ page27088356.html [NC]
+
+RewriteRule ^workshop/2/1/dashboard$ page26803762.html [NC]
+RewriteRule ^workshop/2/1/dashboard/$ page26803762.html [NC]
+
+RewriteRule ^game$ page25947048.html [NC]
+RewriteRule ^game/$ page25947048.html [NC]
+
+RewriteRule ^workshop/2/dashboard$ page26197159.html [NC]
+RewriteRule ^workshop/2/dashboard/$ page26197159.html [NC]
+
+RewriteRule ^workshop/dashboard$ page24775017.html [NC]
+RewriteRule ^workshop/dashboard/$ page24775017.html [NC]
+
+RewriteRule ^workshop/2/dashboard/anonim$ page26514344.html [NC]
+RewriteRule ^workshop/2/dashboard/anonim/$ page26514344.html [NC]
+
+RewriteRule ^lesson/2/medical$ page26353879.html [NC]
+RewriteRule ^lesson/2/medical/$ page26353879.html [NC]
+
+RewriteRule ^betflix_demo$ page25117878.html [NC]
+RewriteRule ^betflix_demo/$ page25117878.html [NC]
+
+RewriteRule ^almasayti_template$ page24840907.html [NC]
+RewriteRule ^almasayti_template/$ page24840907.html [NC]
+
+RewriteRule ^students/gunay$ page25987259.html [NC]
+RewriteRule ^students/gunay/$ page25987259.html [NC]
+
+RewriteRule ^students/savoir$ page25885276.html [NC]
+RewriteRule ^students/savoir/$ page25885276.html [NC]
+
+RewriteRule ^students/savoir/services$ page25886342.html [NC]
+RewriteRule ^students/savoir/services/$ page25886342.html [NC]
+
+RewriteRule ^students/savoir/sss$ page25887305.html [NC]
+RewriteRule ^students/savoir/sss/$ page25887305.html [NC]
+
+RewriteRule ^students/rovshanmalikov$ page26050189.html [NC]
+RewriteRule ^students/rovshanmalikov/$ page26050189.html [NC]
+
+RewriteRule ^students/rovshanmalikov/services$ page26050197.html [NC]
+RewriteRule ^students/rovshanmalikov/services/$ page26050197.html [NC]
+
+RewriteRule ^students/rovshanmalikov/consultation$ page26052949.html [NC]
+RewriteRule ^students/rovshanmalikov/consultation/$ page26052949.html [NC]
+
+RewriteRule ^students/rovshanmalikov/support$ page26053431.html [NC]
+RewriteRule ^students/rovshanmalikov/support/$ page26053431.html [NC]
+
+RewriteRule ^students/rvan$ page26177345.html [NC]
+RewriteRule ^students/rvan/$ page26177345.html [NC]
+
+RewriteRule ^students/nigarly$ page27072016.html [NC]
+RewriteRule ^students/nigarly/$ page27072016.html [NC]
+
+RewriteRule ^students/nigarly/dental$ page27072342.html [NC]
+RewriteRule ^students/nigarly/dental/$ page27072342.html [NC]
+
+RewriteRule ^students/muradahmadow$ page27125425.html [NC]
+RewriteRule ^students/muradahmadow/$ page27125425.html [NC]
+
+RewriteRule ^students/muradahmadow/dental$ page27125429.html [NC]
+RewriteRule ^students/muradahmadow/dental/$ page27125429.html [NC]
+
+RewriteRule ^students/muradahmadow/contact$ page27125432.html [NC]
+RewriteRule ^students/muradahmadow/contact/$ page27125432.html [NC]
+
+RewriteRule ^students/tagwebaz$ page27452212.html [NC]
+RewriteRule ^students/tagwebaz/$ page27452212.html [NC]
+
+RewriteRule ^tariel$ page27469272.html [NC]
+RewriteRule ^tariel/$ page27469272.html [NC]
+
+RewriteRule ^students/khudaverdiyeva$ page27469059.html [NC]
+RewriteRule ^students/khudaverdiyeva/$ page27469059.html [NC]
+
+RewriteRule ^students/fatima$ page27512210.html [NC]
+RewriteRule ^students/fatima/$ page27512210.html [NC]
+
+RewriteRule ^students/gmzphoto$ page27483074.html [NC]
+RewriteRule ^students/gmzphoto/$ page27483074.html [NC]
+
+RewriteRule ^students/simplemeal$ page27484443.html [NC]
+RewriteRule ^students/simplemeal/$ page27484443.html [NC]
+
+RewriteRule ^students/petcare$ page27523470.html [NC]
+RewriteRule ^students/petcare/$ page27523470.html [NC]
+
+RewriteRule ^students/hamambath$ page27523736.html [NC]
+RewriteRule ^students/hamambath/$ page27523736.html [NC]
+
+RewriteRule ^students/furniture$ page27513798.html [NC]
+RewriteRule ^students/furniture/$ page27513798.html [NC]
+
+RewriteRule ^students/furniture/about$ page27523557.html [NC]
+RewriteRule ^students/furniture/about/$ page27523557.html [NC]
+
+RewriteRule ^students/furniture/kredit-sertleri$ page27523554.html [NC]
+RewriteRule ^students/furniture/kredit-sertleri/$ page27523554.html [NC]
+
+RewriteRule ^students/fezail$ page27524583.html [NC]
+RewriteRule ^students/fezail/$ page27524583.html [NC]
+
+RewriteRule ^students/devmari$ page27557832.html [NC]
+RewriteRule ^students/devmari/$ page27557832.html [NC]
+
+RewriteRule ^en-46832$ page27433616.html [NC]
+RewriteRule ^en-46832/$ page27433616.html [NC]
+
+RewriteRule ^students/aysun/nirvana$ page27637750.html [NC]
+RewriteRule ^students/aysun/nirvana/$ page27637750.html [NC]
+
+RewriteRule ^students/aysun$ page27640851.html [NC]
+RewriteRule ^students/aysun/$ page27640851.html [NC]
+
+RewriteRule ^students/aysunm$ page27706917.html [NC]
+RewriteRule ^students/aysunm/$ page27706917.html [NC]
+
+RewriteRule ^students/gunai$ page28247969.html [NC]
+RewriteRule ^students/gunai/$ page28247969.html [NC]
+
+RewriteRule ^en/$ page28373311.html [NC]
+RewriteRule ^en//$ page28373311.html [NC]
+
+RewriteRule ^tr/$ page28373322.html [NC]
+RewriteRule ^tr//$ page28373322.html [NC]
+
+RewriteRule ^students/$ page29486445.html [NC]
+RewriteRule ^students//$ page29486445.html [NC]
+
+RewriteRule ^tehlukesizlik$ page28411191.html [NC]
+RewriteRule ^tehlukesizlik/$ page28411191.html [NC]
+
+RewriteRule ^otaq$ page28416907.html [NC]
+RewriteRule ^otaq/$ page28416907.html [NC]
+
+RewriteRule ^zoooanimalsss$ page26585579.html [NC]
+RewriteRule ^zoooanimalsss/$ page26585579.html [NC]
+
+RewriteRule ^blogger$ page28280220.html [NC]
+RewriteRule ^blogger/$ page28280220.html [NC]
+
+RewriteRule ^irm/etrafli$ page27163206.html [NC]
+RewriteRule ^irm/etrafli/$ page27163206.html [NC]
+
+RewriteRule ^irm/haqqimizda$ page27063542.html [NC]
+RewriteRule ^irm/haqqimizda/$ page27063542.html [NC]
+
+RewriteRule ^irm/gorulen-isler$ page27028400.html [NC]
+RewriteRule ^irm/gorulen-isler/$ page27028400.html [NC]
+
+RewriteRule ^stendaz$ page25217394.html [NC]
+RewriteRule ^stendaz/$ page25217394.html [NC]
+
+RewriteRule ^irmaz$ page26943966.html [NC]
+RewriteRule ^irmaz/$ page26943966.html [NC]
+
+RewriteRule ^jftre$ page26698868.html [NC]
+RewriteRule ^jftre/$ page26698868.html [NC]
+
+RewriteRule ^botpro/dashboard$ page27325763.html [NC]
+RewriteRule ^botpro/dashboard/$ page27325763.html [NC]
+
+RewriteRule ^botpro/dashboard/feedback$ page26067015.html [NC]
+RewriteRule ^botpro/dashboard/feedback/$ page26067015.html [NC]
+
+RewriteRule ^botpro/anket$ page26623500.html [NC]
+RewriteRule ^botpro/anket/$ page26623500.html [NC]
+
+RewriteRule ^students/tariel$ page27449622.html [NC]
+RewriteRule ^students/tariel/$ page27449622.html [NC]
+
+RewriteRule ^en$ page27449682.html [NC]
+RewriteRule ^en/$ page27449682.html [NC]
+
+RewriteRule ^dental$ page27538154.html [NC]
+RewriteRule ^dental/$ page27538154.html [NC]
+
+RewriteRule ^dental-33274$ page27506385.html [NC]
+RewriteRule ^dental-33274/$ page27506385.html [NC]
+
+RewriteRule ^privacy-policy$ page27487362.html [NC]
+RewriteRule ^privacy-policy/$ page27487362.html [NC]
+
+RewriteRule ^ruwd$ page27449667.html [NC]
+RewriteRule ^ruwd/$ page27449667.html [NC]
+
+RewriteRule ^en-17463$ page27634078.html [NC]
+RewriteRule ^en-17463/$ page27634078.html [NC]
+
+RewriteRule ^dental-83506$ page27760720.html [NC]
+RewriteRule ^dental-83506/$ page27760720.html [NC]
+
+RewriteRule ^tent-zontik$ page28473763.html [NC]
+RewriteRule ^tent-zontik/$ page28473763.html [NC]
+
+RewriteRule ^en-89626$ page30388003.html [NC]
+RewriteRule ^en-89626/$ page30388003.html [NC]
+
+RewriteRule ^art/ru$ page29868993.html [NC]
+RewriteRule ^art/ru/$ page29868993.html [NC]
+
+RewriteRule ^rashad-abaszade$ page30676756.html [NC]
+RewriteRule ^rashad-abaszade/$ page30676756.html [NC]
+
+RewriteRule ^salahaddin-yusifov$ page31135624.html [NC]
+RewriteRule ^salahaddin-yusifov/$ page31135624.html [NC]
+
+RewriteRule ^elmira-xanmammadova$ page31131125.html [NC]
+RewriteRule ^elmira-xanmammadova/$ page31131125.html [NC]
+
+RewriteRule ^azer-mammadov$ page31133284.html [NC]
+RewriteRule ^azer-mammadov/$ page31133284.html [NC]
+
+RewriteRule ^kurslarmz$ page31131038.html [NC]
+RewriteRule ^kurslarmz/$ page31131038.html [NC]
+
+RewriteRule ^distantt$ page31130994.html [NC]
+RewriteRule ^distantt/$ page31130994.html [NC]
+
+RewriteRule ^konfranslar$ page31130586.html [NC]
+RewriteRule ^konfranslar/$ page31130586.html [NC]
+
+RewriteRule ^imran-bayramov$ page31135735.html [NC]
+RewriteRule ^imran-bayramov/$ page31135735.html [NC]
+
+RewriteRule ^layiheler$ page30676738.html [NC]
+RewriteRule ^layiheler/$ page30676738.html [NC]
+
+RewriteRule ^jurnallar$ page30676759.html [NC]
+RewriteRule ^jurnallar/$ page30676759.html [NC]
+
+RewriteRule ^kitablar$ page31129491.html [NC]
+RewriteRule ^kitablar/$ page31129491.html [NC]
+
+RewriteRule ^ru-94270$ page31990371.html [NC]
+RewriteRule ^ru-94270/$ page31990371.html [NC]
+
+RewriteRule ^miq-hazirligi$ page30420141.html [NC]
+RewriteRule ^miq-hazirligi/$ page30420141.html [NC]
+
+RewriteRule ^dovlet-qulluguna-hazirliq$ page30420146.html [NC]
+RewriteRule ^dovlet-qulluguna-hazirliq/$ page30420146.html [NC]
+
+RewriteRule ^komputer-kurslarina-hazirliq$ page30420171.html [NC]
+RewriteRule ^komputer-kurslarina-hazirliq/$ page30420171.html [NC]
+
+RewriteRule ^xarici-dil-hazirligi$ page30420178.html [NC]
+RewriteRule ^xarici-dil-hazirligi/$ page30420178.html [NC]
+
+RewriteRule ^ibtidai-sinif-hazirligi$ page30420196.html [NC]
+RewriteRule ^ibtidai-sinif-hazirligi/$ page30420196.html [NC]
+
+RewriteRule ^abituriyent-hazirligi$ page30420126.html [NC]
+RewriteRule ^abituriyent-hazirligi/$ page30420126.html [NC]
+
+RewriteRule ^resm-kurslari$ page30420269.html [NC]
+RewriteRule ^resm-kurslari/$ page30420269.html [NC]
+
+RewriteRule ^en-25230$ page28869936.html [NC]
+RewriteRule ^en-25230/$ page28869936.html [NC]
+
+RewriteRule ^catalog$ page37455189.html [NC]
+RewriteRule ^catalog/$ page37455189.html [NC]
+
+RewriteRule ^en/about$ page37455184.html [NC]
+RewriteRule ^en/about/$ page37455184.html [NC]
+
+RewriteRule ^tapmadim$ page37454514.html [NC]
+RewriteRule ^tapmadim/$ page37454514.html [NC]
+
+RewriteRule ^tr/catalog$ page37455185.html [NC]
+RewriteRule ^tr/catalog/$ page37455185.html [NC]
+
+RewriteRule ^en/catalog$ page37455187.html [NC]
+RewriteRule ^en/catalog/$ page37455187.html [NC]
+
+RewriteRule ^en/privacypolicy$ page37455193.html [NC]
+RewriteRule ^en/privacypolicy/$ page37455193.html [NC]
+
+RewriteRule ^privacypolicy$ page37455198.html [NC]
+RewriteRule ^privacypolicy/$ page37455198.html [NC]
+
+RewriteRule ^tr/privacypolicy$ page37455201.html [NC]
+RewriteRule ^tr/privacypolicy/$ page37455201.html [NC]
+
+RewriteRule ^about$ page37455182.html [NC]
+RewriteRule ^about/$ page37455182.html [NC]
+
+RewriteRule ^tr/about$ page37455181.html [NC]
+RewriteRule ^tr/about/$ page37455181.html [NC]
+
+RewriteRule ^tr$ page37454937.html [NC]
+RewriteRule ^tr/$ page37454937.html [NC]
+
+RewriteRule ^canli$ page27600463.html [NC]
+RewriteRule ^canli/$ page27600463.html [NC]
+
+RewriteRule ^reality$ page27869949.html [NC]
+RewriteRule ^reality/$ page27869949.html [NC]
+
+RewriteRule ^canli/success/$ page27664270.html [NC]
+RewriteRule ^canli/success//$ page27664270.html [NC]
+
+RewriteRule ^reality/success$ page27603107.html [NC]
+RewriteRule ^reality/success/$ page27603107.html [NC]
+
+RewriteRule ^x100$ page28531487.html [NC]
+RewriteRule ^x100/$ page28531487.html [NC]
+
+RewriteRule ^portfolio/insaat$ page28643980.html [NC]
+RewriteRule ^portfolio/insaat/$ page28643980.html [NC]
+
+RewriteRule ^portfolio/medicare$ page28605948.html [NC]
+RewriteRule ^portfolio/medicare/$ page28605948.html [NC]
+
+RewriteRule ^portfolio/pulsefit$ page28662165.html [NC]
+RewriteRule ^portfolio/pulsefit/$ page28662165.html [NC]
+
+RewriteRule ^portfolio/zoo$ page28611806.html [NC]
+RewriteRule ^portfolio/zoo/$ page28611806.html [NC]
+
+RewriteRule ^portfolio/dental$ page28698506.html [NC]
+RewriteRule ^portfolio/dental/$ page28698506.html [NC]
+
+RewriteRule ^portfolio/hamam$ page28698752.html [NC]
+RewriteRule ^portfolio/hamam/$ page28698752.html [NC]
+
+RewriteRule ^portfolio/primecenter$ page16914681.html [NC]
+RewriteRule ^portfolio/primecenter/$ page16914681.html [NC]
+
+RewriteRule ^portfolio/tatoo-studio$ page28606782.html [NC]
+RewriteRule ^portfolio/tatoo-studio/$ page28606782.html [NC]
+
+RewriteRule ^portfolio/xenia$ page19443624.html [NC]
+RewriteRule ^portfolio/xenia/$ page19443624.html [NC]
+
+RewriteRule ^portfolio/foto-studio$ page28630782.html [NC]
+RewriteRule ^portfolio/foto-studio/$ page28630782.html [NC]
+
+RewriteRule ^portfolio/training$ page28620011.html [NC]
+RewriteRule ^portfolio/training/$ page28620011.html [NC]
+
+RewriteRule ^portfolio/cleaning$ page28615063.html [NC]
+RewriteRule ^portfolio/cleaning/$ page28615063.html [NC]
+
+RewriteRule ^portfolio/coffee-shop$ page28619967.html [NC]
+RewriteRule ^portfolio/coffee-shop/$ page28619967.html [NC]
+
+RewriteRule ^portfolio/beauty$ page28615539.html [NC]
+RewriteRule ^portfolio/beauty/$ page28615539.html [NC]
+
+RewriteRule ^portfolio/muhasibat$ page28616550.html [NC]
+RewriteRule ^portfolio/muhasibat/$ page28616550.html [NC]
+
+RewriteRule ^portfolio/mebel$ page28708867.html [NC]
+RewriteRule ^portfolio/mebel/$ page28708867.html [NC]
+
+RewriteRule ^portfolio/petcare$ page28709355.html [NC]
+RewriteRule ^portfolio/petcare/$ page28709355.html [NC]
+
+RewriteRule ^portfolio/photography$ page28620604.html [NC]
+RewriteRule ^portfolio/photography/$ page28620604.html [NC]
+
+RewriteRule ^portfolio/kosmetolog$ page28645615.html [NC]
+RewriteRule ^portfolio/kosmetolog/$ page28645615.html [NC]
+
+RewriteRule ^portfolio/reklam$ page28649363.html [NC]
+RewriteRule ^portfolio/reklam/$ page28649363.html [NC]
+
+RewriteRule ^dashboard/chatbot$ page29504586.html [NC]
+RewriteRule ^dashboard/chatbot/$ page29504586.html [NC]
+
+RewriteRule ^chatbot/workshop$ page29634140.html [NC]
+RewriteRule ^chatbot/workshop/$ page29634140.html [NC]
+
+RewriteRule ^vebinar$ page29790007.html [NC]
+RewriteRule ^vebinar/$ page29790007.html [NC]
+
+RewriteRule ^chatbot$ page28966735.html [NC]
+RewriteRule ^chatbot/$ page28966735.html [NC]
+
+RewriteRule ^chatbotgame$ page29455108.html [NC]
+RewriteRule ^chatbotgame/$ page29455108.html [NC]
+
+RewriteRule ^chatbots$ page29602007.html [NC]
+RewriteRule ^chatbots/$ page29602007.html [NC]
+
+RewriteRule ^chatbotworkshop$ page29819779.html [NC]
+RewriteRule ^chatbotworkshop/$ page29819779.html [NC]
+
+RewriteRule ^dashboard/chatbot-bonus$ page30890583.html [NC]
+RewriteRule ^dashboard/chatbot-bonus/$ page30890583.html [NC]
+
+RewriteRule ^1$ page48683639.html [NC]
+RewriteRule ^1/$ page48683639.html [NC]
+
+RewriteRule ^2$ page37822595.html [NC]
+RewriteRule ^2/$ page37822595.html [NC]
+
+RewriteRule ^3$ page51830693.html [NC]
+RewriteRule ^3/$ page51830693.html [NC]
+
+RewriteRule ^main$ page38821275.html [NC]
+RewriteRule ^main/$ page38821275.html [NC]
+
+RewriteRule ^ru-91887$ page34570179.html [NC]
+RewriteRule ^ru-91887/$ page34570179.html [NC]
+
+RewriteRule ^en-44707$ page35156300.html [NC]
+RewriteRule ^en-44707/$ page35156300.html [NC]
+
+RewriteRule ^error$ page35160925.html [NC]
+RewriteRule ^error/$ page35160925.html [NC]
+
+RewriteRule ^northcyprus$ page55221209.html [NC]
+RewriteRule ^northcyprus/$ page55221209.html [NC]
+
+RewriteRule ^northcyprus/beaches$ page55221211.html [NC]
+RewriteRule ^northcyprus/beaches/$ page55221211.html [NC]
+
+RewriteRule ^guarantee$ page55221207.html [NC]
+RewriteRule ^guarantee/$ page55221207.html [NC]
+
+RewriteRule ^22$ page55221215.html [NC]
+RewriteRule ^22/$ page55221215.html [NC]
+
+RewriteRule ^dashboard$ page55221233.html [NC]
+RewriteRule ^dashboard/$ page55221233.html [NC]
+
+RewriteRule ^workprinciples$ page55221229.html [NC]
+RewriteRule ^workprinciples/$ page55221229.html [NC]
+
+RewriteRule ^dashboard/lessons/market$ page55221217.html [NC]
+RewriteRule ^dashboard/lessons/market/$ page55221217.html [NC]
+
+RewriteRule ^dashboard/investments/sharedeals$ page55221227.html [NC]
+RewriteRule ^dashboard/investments/sharedeals/$ page55221227.html [NC]
+
+RewriteRule ^dashboard/lessons$ page55221223.html [NC]
+RewriteRule ^dashboard/lessons/$ page55221223.html [NC]
+
+RewriteRule ^dashboard/realestate$ page55221225.html [NC]
+RewriteRule ^dashboard/realestate/$ page55221225.html [NC]
+
+RewriteRule ^dashboard/investments$ page55221219.html [NC]
+RewriteRule ^dashboard/investments/$ page55221219.html [NC]
+
+RewriteRule ^dashboard/services$ page55221221.html [NC]
+RewriteRule ^dashboard/services/$ page55221221.html [NC]
+
+RewriteRule ^123123$ page55221231.html [NC]
+RewriteRule ^123123/$ page55221231.html [NC]
+
+RewriteRule ^en-49902$ page34497758.html [NC]
+RewriteRule ^en-49902/$ page34497758.html [NC]
+
+RewriteRule ^ru$ page33597227.html [NC]
+RewriteRule ^ru/$ page33597227.html [NC]
+
+RewriteRule ^team$ page36476849.html [NC]
+RewriteRule ^team/$ page36476849.html [NC]
+
+RewriteRule ^ru/calculator$ page35154053.html [NC]
+RewriteRule ^ru/calculator/$ page35154053.html [NC]
+
+RewriteRule ^en/calculator$ page35160073.html [NC]
+RewriteRule ^en/calculator/$ page35160073.html [NC]
+
+RewriteRule ^comingsoon$ page34011812.html [NC]
+RewriteRule ^comingsoon/$ page34011812.html [NC]
+
+RewriteRule ^22-81213$ page38261891.html [NC]
+RewriteRule ^22-81213/$ page38261891.html [NC]
+
+RewriteRule ^workprinciples-89554$ page38558145.html [NC]
+RewriteRule ^workprinciples-89554/$ page38558145.html [NC]
+
+RewriteRule ^dashboard-77106$ page38582036.html [NC]
+RewriteRule ^dashboard-77106/$ page38582036.html [NC]
+
+RewriteRule ^dashboard/lessons-90879$ page38533895.html [NC]
+RewriteRule ^dashboard/lessons-90879/$ page38533895.html [NC]
+
+RewriteRule ^dashboard/lessons/market-48042$ page38491327.html [NC]
+RewriteRule ^dashboard/lessons/market-48042/$ page38491327.html [NC]
+
+RewriteRule ^dashboard/investments/sharedeals-65932$ page38534238.html [NC]
+RewriteRule ^dashboard/investments/sharedeals-65932/$ page38534238.html [NC]
+
+RewriteRule ^dashboard/services-93803$ page38492038.html [NC]
+RewriteRule ^dashboard/services-93803/$ page38492038.html [NC]
+
+RewriteRule ^dashboard/realestate-71813$ page38533926.html [NC]
+RewriteRule ^dashboard/realestate-71813/$ page38533926.html [NC]
+
+RewriteRule ^dashboard/investments-30025$ page38491757.html [NC]
+RewriteRule ^dashboard/investments-30025/$ page38491757.html [NC]
+
+RewriteRule ^igorpashkov$ page38045871.html [NC]
+RewriteRule ^igorpashkov/$ page38045871.html [NC]
+
+RewriteRule ^123123-51385$ page38571601.html [NC]
+RewriteRule ^123123-51385/$ page38571601.html [NC]
+
+RewriteRule ^agent$ page34011455.html [NC]
+RewriteRule ^agent/$ page34011455.html [NC]
+
+RewriteRule ^agent/kpi$ page34425392.html [NC]
+RewriteRule ^agent/kpi/$ page34425392.html [NC]
+
+RewriteRule ^agent/comissions$ page34431356.html [NC]
+RewriteRule ^agent/comissions/$ page34431356.html [NC]
+
+RewriteRule ^agent/rules$ page34439325.html [NC]
+RewriteRule ^agent/rules/$ page34439325.html [NC]
+
+RewriteRule ^agent/email$ page34565460.html [NC]
+RewriteRule ^agent/email/$ page34565460.html [NC]
+
+RewriteRule ^agent/team$ page34910193.html [NC]
+RewriteRule ^agent/team/$ page34910193.html [NC]
+
+RewriteRule ^agent/company$ page36413954.html [NC]
+RewriteRule ^agent/company/$ page36413954.html [NC]
+
+RewriteRule ^agent/addproject$ page32885390.html [NC]
+RewriteRule ^agent/addproject/$ page32885390.html [NC]
+
+RewriteRule ^platform$ page36785009.html [NC]
+RewriteRule ^platform/$ page36785009.html [NC]
+
+RewriteRule ^platform/fidan$ page35912106.html [NC]
+RewriteRule ^platform/fidan/$ page35912106.html [NC]
+
+RewriteRule ^platform/valeria$ page37649880.html [NC]
+RewriteRule ^platform/valeria/$ page37649880.html [NC]
+
+RewriteRule ^ru/gabala$ page69950741.html [NC]
+RewriteRule ^ru/gabala/$ page69950741.html [NC]
+
+RewriteRule ^test-13635$ page73185039.html [NC]
+RewriteRule ^test-13635/$ page73185039.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC,L]
+
+
